@@ -4,8 +4,8 @@ From this Dockerfile you can create an Image with udpgate4 installed on Alpine L
 
 ## Build
 
-To build this image you can use the `build.sh`. It will create an Image tagged with `registry.hamfog.net/dm4tze/aprs-lora-tnc`.
+To build this image you can use the `build.sh`. It will create an Image tagged with `registry.hamfog.net/dm4tze/aprs-igate`.
 
 ## Start
 
-To Start the tnc can use the run.sh. Configuration can be injected by mounting a `config.py` to the root folder. For an example see [config.py](content/RPi-LoRa-KISS-TNC/config.py)
+To start the igate you have to adjust the `run.sh` and replace the <call> and <pass> placeholder. It will listen on port 20000 and 20001.
